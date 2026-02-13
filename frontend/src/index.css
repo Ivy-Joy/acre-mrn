@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg,#f8fafc 0%, #ffffff 100%);
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* small helpers */
+.card {
+  @apply bg-white rounded-lg p-4 shadow-sm border border-gray-100;
+}
