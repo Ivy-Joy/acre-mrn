@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="<%= lang %>">
+  <head>
+    <meta charset="utf-8" />
+    <title><%= t('reportTitle') %> — <%= pub.doi %></title>
+    <style>
+      body { font-family: Inter, Arial, sans-serif; color:#0f172a; padding:28px; }
+      .header { display:flex; justify-content:space-between; align-items:center }
+      .brand { font-weight:700; font-size:18px; }
+      .muted { color:#6b7280; font-size:12px; }
+      .section { margin-top:20px; }
+      .kpi { display:flex; gap:12px; }
+      .card { background:#fff; border-radius:8px; padding:12px; box-shadow:0 2px 6px rgba(15,23,42,0.05); }
+      .score { font-size:40px; font-weight:700; color:#065f46; }
+      table { width:100%; border-collapse:collapse; margin-top:12px; }
+      th, td { text-align:left; padding:8px; border-bottom:1px solid #e6edf3; }
+      .issue { color:#b91c1c; font-weight:600; }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <div class="brand">ACRE — Data Health Report</div>
+        <div class="muted"><%= t('publication') %>: <%= pub.title || pub.doi %></div>
+        <div class="muted"><%= t('doi') %>: <%= pub.doi %></div>
+      </div>
+      <div style="text-align:right">
+        <div class="muted"><%= t('generatedAt') %>:</div>
+        <div><%= generatedAt %></div>
+      </div>
+    </div>
+
+    <div class="section kpi">
+      <div class="card" style="flex:0 0 160px; text-align:center;">
+        <div class="muted"><%= t('dataHealthScore') %></div>
+        <div class="score"><%= dataHealth.score %></div>
+      </div>
+      <div style="flex:1">
+        <div class="card">
+          <div class="muted"><%= t('summary') %></div>
+          <div style="margin-top:8px;"><%= t('issuesFound') %>: <strong><%= dataHealth.issues.length %></strong></div>
+          <ul>
+            <% dataHealth.issues.forEach(function(it){ %>
+              <li class="issue"><%= it %></li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section card">
+      <div class="muted">Checks</div>
+      <table>
+        <thead><tr><th><%= t('check') %></th><th><%= t('result') %></th></tr></thead>
+        <tbody>
+          <tr><td><%= t('doiResolved') %></td><td><%= dataHealth.checks.doi ? t('yes') : t('no') %></td></tr>
+          <tr><td><%= t('dataLinkAccessible') %></td><td><%= dataHealth.checks.dataLinks && dataHealth.checks.dataLinks.some(d=>d.ok) ? t('yes') : t('no') %></td></tr>
+          <tr><td><%= t('acknowledgementContainsGrant') %></td><td><%= dataHealth.checks.foundGrantIds && dataHealth.checks.foundGrantIds.length ? dataHealth.checks.foundGrantIds.join(', ') : t('no') %></td></tr>
+          <tr><td><%= t('hasOrcid') %></td><td><%= dataHealth.checks.hasOrcid ? t('yes') : t('no') %></td></tr>
+          <tr><td><%= t('affiliationsPresent') %></td><td><%= dataHealth.checks.allAuthorsHaveAffiliation ? t('yes') : t('no') %></td></tr>
+          <tr><td><%= t('methodsAndSampleSize') %></td><td><%= (dataHealth.checks.methodsPresent && dataHealth.checks.sampleSizePresent) ? t('yes') : t('no') %></td></tr>
+          <tr><td><%= t('isLatestVersion') %></td><td><%= dataHealth.checks.isLatest ? t('yes') : t('no') %></td></tr>
+          <tr><td><%= t('lodHandling') %></td><td><%= dataHealth.checks.lodHandling ? t('yes') : t('no') %></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section muted"><%= t('disclaimer') %></div>
+  </body>
+</html>

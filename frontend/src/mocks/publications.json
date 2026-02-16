@@ -1,0 +1,260 @@
+[
+  {
+    "doi": "10.12688/openresafrica.13566.1",
+    "title": "The interconnected global emergencies of climate change, food security and health: a call to action by the Science for Africa Foundation",
+    "authors": [
+      { "name": "Thomas Kariuki", "orcid": "", "affiliation": "Science for Africa Foundation, Nairobi, Kenya" },
+      { "name": "Judith Omumbo", "orcid": "", "affiliation": "Science for Africa Foundation, Nairobi, Kenya" },
+      { "name": "Kabura Ciugu", "orcid": "", "affiliation": "Science for Africa Foundation, Nairobi, Kenya" },
+      { "name": "Elizabeth Marincola", "orcid": "", "affiliation": "Science for Africa Foundation, Nairobi, Kenya" }
+    ],
+    "acknowledgementText": "The author(s) declared that the work was funded in full by the Science for Africa Foundation and no grants were involved in supporting this work.",
+    "publishedAt": "2023-01-03",
+    "version": "v1",
+    "abstract": "The evidence is clear that climate change is the greatest challenge facing mankind today. Africa is disproportionately burdened by multiple direct and cascading impacts ...",
+    "keywords": ["climate", "food security", "health", "research capacity", "Science for Africa Foundation"],
+    "peerReview": { "approved": 2, "approved_with_reservations": 1 },
+    "dataLinks": [],
+    "collections": ["Climate"],
+    "altmetric": { "score": 18 },
+    "isOpenAccess": true,
+    "notes": "Open Letter; strategic priorities. No external grant IDs found."
+  },
+  {
+    "doi": "10.12688/aasopenres.13099.2",
+    "title": "COVID-19 and the HIV care continuum in Uganda: minimising collateral damage",
+    "authors": [
+      { "name": "Enock Kagimu", "orcid": "0000-0002-0291-651X", "affiliation": "Infectious Diseases Institute, Makerere University, Kampala, Uganda" },
+      { "name": "Emily M. Martyn", "orcid": "0000-0003-4981-9298", "affiliation": "North Middlesex University Hospital, London, UK" },
+      { "name": "Jane Gakuru", "orcid": "0000-0003-2276-360X", "affiliation": "Makerere University, Kampala" }
+    ],
+    "acknowledgementText": "This work was supported by the African Academy of Sciences (AAS) through the THRiVE-2 programme, through grants DEL-15-011 and DEL-15-130.",
+    "publishedAt": "2020-07-02",
+    "version": "v2",
+    "abstract": "We explore the potential impact of COVID-19 public health measures on the HIV care continuum in Uganda and suggest priorities to minimise collateral damage.",
+    "keywords": ["COVID-19", "HIV", "health systems", "DELTAS", "THRiVE-2"],
+    "peerReview": { "approved": 2, "approved_with_reservations": 1 },
+    "dataLinks": [],
+    "altmetric": { "score": 42 },
+    "isOpenAccess": true,
+    "notes": "Acknowledges DEL-15-011 and DEL-15-130 (DELTAS). Good ORCID coverage for some authors."
+  },
+  {
+    "doi": "10.12688/openresafrica.13566.1",
+    "title": "The interconnected global emergencies of climate change, food security and health: a call to action by the Science for Africa Foundation",
+    "authors": [
+      { "name": "Thomas Kariuki", "orcid": "0000-0000-0000-0000", "affiliation": "Science for Africa Foundation, Nairobi, Kenya" },
+      { "name": "Judith Omumbo", "orcid": "", "affiliation": "Science for Africa Foundation, Nairobi, Kenya" }
+    ],
+    "acknowledgementText": "The author(s) declared that the work was funded in full by the Science for Africa Foundation and no grants were involved in supporting this work.",
+    "publishedAt": "2023-01-03",
+    "version": "v1",
+    "abstract": "Open letter outlining climate, food security and health priorities for Africa and strategic actions led by the Foundation.",
+    "keywords": ["climate", "food security", "health"],
+    "dataLinks": [],
+    "collections": ["Climate"],
+    "altmetric": { "score": 18 },
+    "isOpenAccess": true,
+    "complianceScore": 58,
+    "matchedGrants": []
+  },
+  {
+    "doi": "10.12688/aasopenres.13099.2",
+    "title": "COVID-19 and the HIV care continuum in Uganda: minimising collateral damage",
+    "authors": [
+      { "name": "Enock Kagimu", "orcid": "0000-0002-0291-651X", "affiliation": "Infectious Diseases Institute, Makerere University, Kampala, Uganda" },
+      { "name": "Emily M. Martyn", "orcid": "0000-0003-4981-9298", "affiliation": "North Middlesex University Hospital, London, UK" }
+    ],
+    "acknowledgementText": "This work was supported by the African Academy of Sciences (AAS) through the THRiVE-2 programme, through grants DEL-15-011 and DEL-15-130.",
+    "publishedAt": "2020-07-02",
+    "version": "v2",
+    "abstract": "Impact of COVID-19 measures on HIV care and mitigation strategies in Uganda.",
+    "keywords": ["COVID-19", "HIV", "DELTAS", "THRiVE-2"],
+    "dataLinks": [
+      { "url": "https://doi.org/10.17632/exampledata.001", "status": 200, "lastChecked": "2025-11-01T00:00:00Z" }
+    ],
+    "altmetric": { "score": 42 },
+    "isOpenAccess": true,
+    "complianceScore": 90,
+    "matchedGrants": [
+      { "grantId": "DEL-15-011", "programme": "DELTAS Africa" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.14100.1",
+    "title": "Genomic data harmonization for pan-African research networks",
+    "authors": [
+      { "name": "Aisha Mensah", "orcid": "0000-0002-1111-2222", "affiliation": "University of Ghana, Accra" },
+      { "name": "Samuel Okoye", "orcid": "", "affiliation": "University of Lagos, Nigeria" }
+    ],
+    "acknowledgementText": "Supported by DEL-18-022 under the GEN-IMPACT initiative.",
+    "publishedAt": "2024-09-12",
+    "version": "v1",
+    "abstract": "Proposal and pilot results for standardizing genomics metadata across African labs.",
+    "keywords": ["genomics", "data harmonization"],
+    "dataLinks": [
+      { "url": "https://figshare.com/articles/dataset/genomics-sample/98765", "status": 200, "lastChecked": "2025-11-01T00:00:00Z" }
+    ],
+    "altmetric": { "score": 7 },
+    "isOpenAccess": true,
+    "complianceScore": 95,
+    "matchedGrants": [
+      { "grantId": "DEL-18-022", "programme": "GEN-IMPACT" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.13822.1",
+    "title": "Policy pathways for ethical AI in African health systems",
+    "authors": [
+      { "name": "Njeri Wanjiru", "orcid": "0000-0003-3333-4444", "affiliation": "University of Nairobi, Kenya" }
+    ],
+    "acknowledgementText": "Funded by GRANT-2023-AI-002 (SFA Foundation) under the AI & Data Policy stream.",
+    "publishedAt": "2025-02-02",
+    "version": "v1",
+    "abstract": "Translating AI governance into audit-ready tools for public health in Africa.",
+    "keywords": ["AI", "policy", "health"],
+    "dataLinks": [],
+    "altmetric": { "score": 12 },
+    "isOpenAccess": true,
+    "complianceScore": 72,
+    "matchedGrants": [
+      { "grantId": "GRANT-2023-AI-002", "programme": "AI & Data Policy" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.13200.1",
+    "title": "Community-driven adaptation: early results from coastal resilience pilots",
+    "authors": [
+      { "name": "Fatima Diallo", "orcid": "", "affiliation": "Université Félix Houphouët-Boigny, Côte d'Ivoire" }
+    ],
+    "acknowledgementText": "This pilot was supported in part by GRANT-2023-ENV-001.",
+    "publishedAt": "2023-06-14",
+    "version": "v1",
+    "abstract": "Early monitoring results from coastal resilience programs in West Africa.",
+    "keywords": ["adaptation", "resilience", "coastal"],
+    "dataLinks": [
+      { "url": "https://doi.org/10.17632/exampledata.222", "status": 404, "lastChecked": "2025-11-01T00:00:00Z" }
+    ],
+    "altmetric": { "score": 5 },
+    "isOpenAccess": true,
+    "complianceScore": 48,
+    "matchedGrants": [
+      { "grantId": "GRANT-2023-ENV-001", "programme": "Climate Strategy Pilot" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.12987.1",
+    "title": "Scaling mentorship for early-career African scientists",
+    "authors": [
+      { "name": "Lydia Achieng", "orcid": "", "affiliation": "Kenya Medical Research Institute (KEMRI)" },
+      { "name": "Markus Adele", "orcid": "", "affiliation": "University of Cape Town, South Africa" }
+    ],
+    "acknowledgementText": "Supported by SFA Foundation capacity funds.",
+    "publishedAt": "2022-11-01",
+    "version": "v1",
+    "abstract": "Evaluating mentorship models and outcomes for early-career researchers across three countries.",
+    "keywords": ["mentorship", "capacity building"],
+    "dataLinks": [],
+    "altmetric": { "score": 3 },
+    "isOpenAccess": true,
+    "complianceScore": 60,
+    "matchedGrants": []
+  },
+  {
+    "doi": "10.12688/openresafrica.13110.2",
+    "title": "One Health surveillance: linking veterinary and human datasets",
+    "authors": [
+      { "name": "Bassirou Bonfoh", "orcid": "0000-0002-5555-6666", "affiliation": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire" }
+    ],
+    "acknowledgementText": "Part of DEL-21-050 One Health surveillance series.",
+    "publishedAt": "2021-08-22",
+    "version": "v2",
+    "abstract": "Cross-sectoral surveillance approaches and early warning systems for zoonotic threats.",
+    "keywords": ["one health", "surveillance"],
+    "dataLinks": [
+      { "url": "https://zenodo.org/records/abc123", "status": 200, "lastChecked": "2025-11-01T00:00:00Z" }
+    ],
+    "altmetric": { "score": 27 },
+    "isOpenAccess": true,
+    "complianceScore": 85,
+    "matchedGrants": [
+      { "grantId": "DEL-21-050", "programme": "One Health" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.12700.1",
+    "title": "Food systems resilience and smallholder livelihoods in Eastern Africa",
+    "authors": [
+      { "name": "Grace Mwangi", "orcid": "", "affiliation": "Egerton University, Kenya" }
+    ],
+    "acknowledgementText": "Funded through GRANT-2022-FS-01 (SFA Foundation) and local partners.",
+    "publishedAt": "2022-03-10",
+    "version": "v1",
+    "abstract": "Assessing shocks to smallholder farms and adaptation measures that protect livelihoods.",
+    "keywords": ["food systems", "agriculture"],
+    "dataLinks": [],
+    "altmetric": { "score": 9 },
+    "isOpenAccess": true,
+    "complianceScore": 66,
+    "matchedGrants": [
+      { "grantId": "GRANT-2022-FS-01", "programme": "Food Systems" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.12555.1",
+    "title": "Laboratory capacity mapping for epidemic preparedness",
+    "authors": [
+      { "name": "Evelyn Gitau", "orcid": "0000-0003-7777-8888", "affiliation": "Africa CDC / Science for Africa Foundation" }
+    ],
+    "acknowledgementText": "Supported by DEL-17-100 and institutional funds.",
+    "publishedAt": "2019-12-05",
+    "version": "v1",
+    "abstract": "A continent-wide map of lab capabilities, gaps, and a roadmap for investments.",
+    "keywords": ["laboratory", "epidemic preparedness"],
+    "dataLinks": [
+      { "url": "https://example.org/labs/map.xlsx", "status": 200, "lastChecked": "2025-11-01T00:00:00Z" }
+    ],
+    "altmetric": { "score": 33 },
+    "isOpenAccess": true,
+    "complianceScore": 88,
+    "matchedGrants": [
+      { "grantId": "DEL-17-100", "programme": "Capacity Building" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.12444.1",
+    "title": "Evaluation of maternal health interventions in peri-urban Tanzania",
+    "authors": [
+      { "name": "Amina Suleiman", "orcid": "", "affiliation": "Muhimbili University of Health and Allied Sciences, Tanzania" }
+    ],
+    "acknowledgementText": "Work supported by local partners and a small SFA seed grant (GRANT-2021-MH-01).",
+    "publishedAt": "2021-05-20",
+    "version": "v1",
+    "abstract": "Trial results comparing community health worker models for maternal outcomes.",
+    "keywords": ["maternal health", "community health"],
+    "dataLinks": [],
+    "altmetric": { "score": 4 },
+    "isOpenAccess": true,
+    "complianceScore": 52,
+    "matchedGrants": [
+      { "grantId": "GRANT-2021-MH-01", "programme": "Maternal Health" }
+    ]
+  },
+  {
+    "doi": "10.12688/openresafrica.12222.1",
+    "title": "Tracking translational outcomes: from paper to policy",
+    "authors": [
+      { "name": "Paul Njoroge", "orcid": "", "affiliation": "Kenya School of Government" }
+    ],
+    "acknowledgementText": "This review synthesizes outputs across DELTAS programmes to map policy uptake.",
+    "publishedAt": "2024-04-18",
+    "version": "v1",
+    "abstract": "Methods and case studies showing how funded research influenced national policy documents.",
+    "keywords": ["policy uptake", "translation"],
+    "dataLinks": [],
+    "altmetric": { "score": 15 },
+    "isOpenAccess": true,
+    "complianceScore": 70,
+    "matchedGrants": []
+  }
+]

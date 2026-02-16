@@ -1,0 +1,15 @@
+{
+  "appTitle": "ACRE · Intégrité des subventions",
+  "dashboard": "Tableau de bord",
+  "publications": "Publications",
+  "grants": "Subventions",
+  "generateReport": "Générer le rapport",
+  "dataHealthScore": "Indice de qualité des données",
+  "doi": "DOI",
+  "authors": "Auteurs",
+  "publishedAt": "Publié le",
+  "acknowledgement": "Remerciements",
+  "noData": "Aucune donnée disponible",
+  "downloadPdf": "Télécharger le PDF",
+  "issuesFound": "Problèmes détectés"
+}

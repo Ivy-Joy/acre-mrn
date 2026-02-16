@@ -1,0 +1,22 @@
+{
+  "reportTitle": "Rapport d’intégrité des données",
+  "publication": "Publication",
+  "doi": "DOI",
+  "generatedAt": "Généré le",
+  "dataHealthScore": "Indice de qualité des données",
+  "summary": "Résumé",
+  "issuesFound": "Problèmes détectés",
+  "check": "Contrôle",
+  "result": "Résultat",
+  "doiResolved": "DOI résolu",
+  "dataLinkAccessible": "Lien de données accessible",
+  "acknowledgementContainsGrant": "La reconnaissance contient une subvention",
+  "hasOrcid": "Au moins un auteur a ORCID",
+  "affiliationsPresent": "Affiliations présentes pour tous les auteurs",
+  "methodsAndSampleSize": "Méthodes et taille d'échantillon documentées",
+  "isLatestVersion": "La version est la plus récente",
+  "lodHandling": "Gestion de LOD décrite",
+  "yes": "Oui",
+  "no": "Non",
+  "disclaimer": "Ce rapport est une évaluation automatisée pour aider au triage de la qualité des données. Une revue humaine est requise pour les décisions finales."
+}

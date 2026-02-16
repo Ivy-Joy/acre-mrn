@@ -1,0 +1,21 @@
+[
+  {
+    "grantId": "DEL-15-011",
+    "programme": "DELTAS Africa",
+    "piName": "David B. Meya",
+    "piOrcid": "",
+    "institution": "Makerere University",
+    "startDate": "2015-01-01",
+    "endDate": "2019-12-31",
+    "notes": "THRiVE-2 related grant"
+  },
+  {
+    "grantId": "GRANT-2023-ENV-001",
+    "programme": "Climate Strategy Pilot",
+    "piName": "Thomas Kariuki",
+    "piOrcid": "",
+    "institution": "Science for Africa Foundation",
+    "startDate": "2022-01-01",
+    "endDate": "2024-12-31"
+  }
+]

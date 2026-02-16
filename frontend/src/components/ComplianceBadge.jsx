@@ -1,3 +1,4 @@
+//src/components/ComplianceBadge.jsx
 import React from 'react';
 
 export default function ComplianceBadge({ score = 0 }) {

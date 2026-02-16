@@ -1,3 +1,4 @@
+//src/pages/Publications.jsx
 import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import api from '../lib/api';
 import PublicationCard from '../components/PublicationCard';

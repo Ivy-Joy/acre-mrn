@@ -1,0 +1,22 @@
+{
+  "reportTitle": "Data Health Report",
+  "publication": "Publication",
+  "doi": "DOI",
+  "generatedAt": "Generated",
+  "dataHealthScore": "Data Health Score",
+  "summary": "Summary",
+  "issuesFound": "Issues found",
+  "check": "Check",
+  "result": "Result",
+  "doiResolved": "DOI resolved",
+  "dataLinkAccessible": "Data link accessible",
+  "acknowledgementContainsGrant": "Acknowledgement contains grant",
+  "hasOrcid": "At least one author has ORCID",
+  "affiliationsPresent": "Affiliations present for all authors",
+  "methodsAndSampleSize": "Methods & sample size documented",
+  "isLatestVersion": "Version is latest",
+  "lodHandling": "LOD handling described",
+  "yes": "Yes",
+  "no": "No",
+  "disclaimer": "This report is an automated assessment to help triage data quality. Human review is required for final decisions."
+}

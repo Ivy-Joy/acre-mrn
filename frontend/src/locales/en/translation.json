@@ -1,0 +1,15 @@
+{
+  "appTitle": "ACRE · Grant Integrity",
+  "dashboard": "Dashboard",
+  "publications": "Publications",
+  "grants": "Grants",
+  "generateReport": "Generate Report",
+  "dataHealthScore": "Data Health Score",
+  "doi": "DOI",
+  "authors": "Authors",
+  "publishedAt": "Published",
+  "acknowledgement": "Acknowledgement",
+  "noData": "No data available",
+  "downloadPdf": "Download PDF",
+  "issuesFound": "Issues found"
+}
