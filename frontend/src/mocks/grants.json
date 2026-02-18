@@ -1,5 +1,6 @@
 [
   {
+    "_id": "1",
     "grantId": "DEL-15-011",
     "programme": "DELTAS Africa",
     "piName": "David B. Meya",
@@ -7,15 +8,127 @@
     "institution": "Makerere University",
     "startDate": "2015-01-01",
     "endDate": "2019-12-31",
-    "notes": "THRiVE-2 related grant"
+    "notes": "THRiVE-2 related grant (DELTAS)"
   },
   {
+    "_id": "2",
+    "grantId": "DEL-15-130",
+    "programme": "DELTAS Africa",
+    "piName": "Enock Kagimu",
+    "piOrcid": "",
+    "institution": "Infectious Diseases Institute, Makerere University",
+    "startDate": "2016-01-01",
+    "endDate": "2020-12-31",
+    "notes": "Second THRiVE-2 award referenced by COVID/HIV study"
+  },
+  {
+    "_id": "3",
+    "grantId": "DEL-18-022",
+    "programme": "GEN-IMPACT",
+    "piName": "Aisha Mensah",
+    "piOrcid": "0000-0002-1111-2222",
+    "institution": "University of Ghana",
+    "startDate": "2018-06-01",
+    "endDate": "2023-05-31",
+    "notes": "Genomics interoperability pilot (GEN-IMPACT)"
+  },
+  {
+    "_id": "4",
+    "grantId": "GRANT-2023-AI-002",
+    "programme": "AI & Data Policy",
+    "piName": "Njeri Wanjiru",
+    "piOrcid": "0000-0003-3333-4444",
+    "institution": "University of Nairobi",
+    "startDate": "2023-01-01",
+    "endDate": "2025-12-31",
+    "notes": "Ethical AI policy to practice prototype"
+  },
+  {
+    "_id": "5",
     "grantId": "GRANT-2023-ENV-001",
     "programme": "Climate Strategy Pilot",
     "piName": "Thomas Kariuki",
     "piOrcid": "",
     "institution": "Science for Africa Foundation",
     "startDate": "2022-01-01",
-    "endDate": "2024-12-31"
+    "endDate": "2024-12-31",
+    "notes": "Climate strategy pilot and coastal resilience work"
+  },
+  {
+    "_id": "6",
+    "grantId": "DEL-21-050",
+    "programme": "One Health",
+    "piName": "Bassirou Bonfoh",
+    "piOrcid": "0000-0002-5555-6666",
+    "institution": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire",
+    "startDate": "2021-01-01",
+    "endDate": "2024-12-31",
+    "notes": "One Health surveillance series"
+  },
+  {
+    "_id": "7",
+    "grantId": "GRANT-2022-FS-01",
+    "programme": "Food Systems",
+    "piName": "Grace Mwangi",
+    "piOrcid": "",
+    "institution": "Egerton University",
+    "startDate": "2022-01-01",
+    "endDate": "2023-12-31",
+    "notes": "Food systems resilience and smallholder livelihoods"
+  },
+  {
+    "_id": "8",
+    "grantId": "DEL-17-100",
+    "programme": "Capacity Building",
+    "piName": "Evelyn Gitau",
+    "piOrcid": "0000-0003-7777-8888",
+    "institution": "Africa CDC / Science for Africa Foundation",
+    "startDate": "2017-01-01",
+    "endDate": "2020-12-31",
+    "notes": "Laboratory capacity mapping and investments"
+  },
+  {
+    "_id": "9",
+    "grantId": "GRANT-2021-MH-01",
+    "programme": "Maternal Health",
+    "piName": "Amina Suleiman",
+    "piOrcid": "",
+    "institution": "Muhimbili University of Health and Allied Sciences",
+    "startDate": "2021-01-01",
+    "endDate": "2022-12-31",
+    "notes": "Maternal health intervention seed grant"
+  },
+  {
+    "_id": "10",
+    "grantId": "GRANT-2022-MENT-01",
+    "programme": "Mentorship & Capacity",
+    "piName": "Lydia Achieng",
+    "piOrcid": "",
+    "institution": "Kenya Medical Research Institute (KEMRI)",
+    "startDate": "2022-03-01",
+    "endDate": "2024-02-28",
+    "notes": "Mentorship scaling grant (demo)"
+  },
+  {
+    "_id": "11",
+    "grantId": "GRANT-2024-SEQ-01",
+    "programme": "AfricaBP Sequencing",
+    "piName": "Consortium (AfricaBP)",
+    "piOrcid": "",
+    "institution": "Pan-African Consortium",
+    "startDate": "2023-07-01",
+    "endDate": "2026-06-30",
+    "notes": "Demo grant for Africa BioGenome Project sequencing"
+  },
+  {
+    "_id": "12",
+    "grantId": "SFA-RAPID-2020",
+    "programme": "Rapid Response",
+    "piName": "Institutional Rapid Response",
+    "piOrcid": "",
+    "institution": "Science for Africa Foundation",
+    "startDate": "2020-03-01",
+    "endDate": "2021-12-31",
+    "notes": "COVID-19 rapid funding window (demo use)"
   }
 ]

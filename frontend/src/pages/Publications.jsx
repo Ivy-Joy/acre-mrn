@@ -2,6 +2,8 @@
 import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import api from '../lib/api';
 import PublicationCard from '../components/PublicationCard';
+import publicationsMock from '../mocks/publications.json';
+
 
 const SearchIcon = () => (
   <svg className="w-5 h-5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -21,14 +23,31 @@ export default function Publications() {
     const loadData = async () => {
       try {
         const r = await api.get('/publications');
-        if (isMounted) setPubs(r.data || []);
-      } catch (err) {
+        if (isMounted && r.data && r.data.length > 0) setPubs(r.data);
+      /*} catch (err) {
         console.error(err);
         if (isMounted) setPubs([]);
       } finally {
         if (isMounted) setLoading(false);
       }
-    };
+    };*/
+    // If backend returns data, use it
+      if (isMounted && r.data && r.data.length > 0) {
+        setPubs(r.data);
+      } 
+      // If backend returns empty, fallback to mock
+      else if (isMounted) {
+        console.log('Using mock publications (API empty)');
+        setPubs(publicationsMock);
+      }
+    } catch (err) {
+      console.error(err);
+      console.warn('API failed — using mock data');
+      if (isMounted) setPubs(publicationsMock);
+    } finally {
+      if (isMounted) setLoading(false);
+    }
+  };
 
     loadData();
     return () => { isMounted = false; };
@@ -85,7 +104,7 @@ export default function Publications() {
             {filtered.length > 0 ? (
               <div className="grid grid-cols-1 gap-4">
                 {filtered.map(pub => (
-                  <div key={pub._id} className="group transition-all duration-200 hover:-translate-y-1">
+                  <div key={pub._id || pub.doi} className="group transition-all duration-200 hover:-translate-y-1">
                     <PublicationCard pub={pub} />
                   </div>
                 ))}
